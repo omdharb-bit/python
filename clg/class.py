@@ -59,5 +59,18 @@
 #      print(i)
 
 
-# Print factors of input
+# Prime or not using while loop
+# n=int(input("Enter the no. : "))
+# i=2
+# while i<n:
+#     if n%i==0:
+#         print("No. is not prime")
+#         break
+#     i+=1
+# else:
+#     print("No. is prime")
+
+
+
+ 
 

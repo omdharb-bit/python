@@ -35,14 +35,16 @@
 #     print("Largest no. is: ",c)
 
 
-n=int(input("Enter the units. : "))
+# n=int(input("Enter the units. : "))
 
-if n<=50:
-    n= n*0.50
-    print("Your electricity bill: ",n)
-elif n<=150:
-    n=n*0.75
-    print("Your electricity bill: ",n)
-elif n<=250:
-    n = n * 1.20
-    print("Your electricity bill: ", n)
+# if n<=50:
+#     n= n*0.50
+#     print("Your electricity bill: ",n)
+# elif n<=150:
+#     n=n*0.75
+#     print("Your electricity bill: ",n)
+# elif n<=250:
+#     n = n * 1.20
+#     print("Your electricity bill: ", n)
+
+

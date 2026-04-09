@@ -72,5 +72,31 @@
 
 
 
- 
+# def factors(n):
+#    for i  in range(1,n+1):
+#      if n%i==0:
+#        print(i,end=" ")
+#      return(10)
+   
+# x=factors(12)
+# print(x)
 
+# Wap a program factorial is even or odd using function.by taking user input
+
+def factorial(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact *= i
+    return fact
+
+def check_even_odd(num):
+    fact = factorial(num)
+    print("Factorial of", num, "is:", fact)
+    
+    if fact % 2 == 0:
+        print("Factorial is Even")
+    else:
+        print("Factorial is Odd")
+
+number = int(input("Enter a number: "))
+check_even_odd(number)

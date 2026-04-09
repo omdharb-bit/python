@@ -71,32 +71,77 @@
 #     print("No. is prime")
 
 
-
 # def factors(n):
 #    for i  in range(1,n+1):
 #      if n%i==0:
 #        print(i,end=" ")
 #      return(10)
-   
+
 # x=factors(12)
 # print(x)
 
 # Wap a program factorial is even or odd using function.by taking user input
 
-def factorial(n):
-    fact = 1
-    for i in range(1, n + 1):
-        fact *= i
-    return fact
+# def factorial(n):
+#     fact = 1
+#     for i in range(1, n + 1):
+#         fact *= i
+#     return fact
 
-def check_even_odd(num):
-    fact = factorial(num)
-    print("Factorial of", num, "is:", fact)
-    
-    if fact % 2 == 0:
-        print("Factorial is Even")
-    else:
-        print("Factorial is Odd")
+# def check_even_odd(num):
+#     fact = factorial(num)
+#     print("Factorial of", num, "is:", fact)
 
-number = int(input("Enter a number: "))
-check_even_odd(number)
+#     if fact % 2 == 0:
+#         print("Factorial is Even")
+#     else:
+#         print("Factorial is Odd")
+
+# number = int(input("Enter a number: "))
+# check_even_odd(number)
+
+
+# def factorial(n):
+#     fact = 1
+#     for i in range(1, n + 1):
+#         fact *= i
+#     return fact
+
+
+# # ncr program using function
+
+# def nCr(n, r):
+#     return factorial(n) // (factorial(r) * factorial(n - r))
+
+#     fact = 1
+#     for i in range(1, n + 1):
+#         fact *= i
+#     return fact
+
+
+# def nCr(n, r):
+#     return factorial(n) // (factorial(r) * factorial(n - r))
+
+
+# n = int(input("Enter n: "))
+# r = int(input("Enter r: "))
+
+# result = nCr(n, r)
+# print("nCr =", result)
+# n = int(input("Enter n: "))
+# r = int(input("Enter r: "))
+
+# result = nCr(n, r)
+# print("nCr =", result)
+
+
+# wap which take integer as a input , increase even no. by 5 and subtract odd by 5
+
+# lst=eval(input("Enter list element: "))
+# for i in range(len(lst)):
+#  if lst[i]%2==0:
+#   lst[i]+=5
+#  else:
+#   lst[i]-=5
+#   print(lst)
+

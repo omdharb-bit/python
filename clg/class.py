@@ -138,7 +138,6 @@
 
 # wap which take integer as a input , increase even no. by 5 and subtract odd by 5
 
-
 # lst=eval(input("Enter list element: "))
 # for i in range(len(lst)):
 #  if lst[i]%2==0:
